@@ -1,0 +1,47 @@
+.vk__type-block{
+  height: 62px;
+  width: 100%;
+  background: #F5F5F5;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.type-mini__block{
+  display: flex;
+  flex-direction: row;
+  margin-left: 14px;
+}
+
+.type-text__block{
+  display: flex;
+  flex-direction: column;
+  margin-left: 14px;
+
+}
+
+.type-h4{
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.32px;
+}
+
+.type-p-grey{
+  font-family: SF Pro Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #6D7885;
+  letter-spacing: -0.078px;
+}
+
+.type-img{
+  margin-right: 19px;
+}

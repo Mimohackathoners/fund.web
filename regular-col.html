@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/types.css">
+  <link href="//db.onlinewebfonts.com/c/1c45e28f8e86cc89876f003b953cc3e9?family=SF+Pro+Text" rel="stylesheet" type="text/css"/>
+  <link href="//db.onlinewebfonts.com/c/791b34a71c48acc600f240e9fdb57fb6?family=TT+Commons" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+  <header class="header">
+    <div class="header__block">
+      <h3 class="vk__h3">Целевой сбора</h3>
+      <button class="back" onclick="location.href='types.html'"></button>
+    </div>
+    
+  </header>
+  <main>
+    <form action="">
+      <div class="main-block-target">
+        <div class="photo" id="photo_div">
+          <img id="cover" alt="">
+        </div>
+        <input type="file" name="cover" id="upload-file" class="inputimage" accept="image/x-png,image/gif,image/jpeg" onchange="showImage()">
+        <label for="upload-file" class="upload-label">
+          <div class="upload-photo" id="upload-photo">
+            <img class="margin_right_11" src="img/icon-upload.svg" alt="">
+            <p class="vk__text-blue">Регулярный сбор</p>
+          </div>
+        </label>
+        <div class="vk__input-block">
+          <label class="vk__label" for="">Название сбора</label>
+          <input class="vk__input" type="text" placeholder="Название сбора">
+        </div>
+        <div class="vk__input-block">
+          <label class="vk__label" for="">Сумма, ₽</label>
+          <input class="vk__input" type="text" placeholder="Сколько нужно собрать?">
+        </div>
+        <div class="vk__input-block">
+          <label class="vk__label" for="">Цель</label>
+          <input class="vk__input" type="text" placeholder="Например, лечение человека">
+        </div>
+        <div class="vk__input-block">
+          <label class="vk__label" for="">Описание</label>
+          <textarea class="vk__textarea" cols="2" type="text" placeholder="На что пойдут деньги и как они кому-то помогут?"></textarea>
+        </div>
+        <div class="vk__input-block">
+          <label class="vk__label" for="">Куда получать деньги</label>
+          <select class="vk__input select" size="1">
+            <option value="Счёт VK Pay · 1234">Счёт VK Pay · 1234</option>
+            <option selected value="Счёт VK Pay · 1234">Счёт VK Pay · 1234</option>
+            <option value="Счёт VK Pay · 1234">Счёт VK Pay · 1234</option>
+            <option value="Счёт VK Pay · 1234">Счёт VK Pay · 1234</option>
+          </select>
+        </div>
+        <div class="vk__input-block">
+          <label class="vk__label" for="">Автор</label>
+          <select class="vk__input select" size="1">
+            <option value="Матвей Правосудов">Матвей Правосудов</option>
+            <option selected value="Матвей Правосудов">Матвей Правосудов</option>
+            <option value="Матвей Правосудов">Матвей Правосудов</option>
+            <option value="Матвей Правосудов">Матвей Правосудов</option>
+          </select>
+        </div>
+        <div>
+          <input class="vk__input-submit" type="button" value="Далее"  onclick="location.href='post-reg.html'">
+        </div>
+      </div>
+    </form>
+  </main>
+  <footer>
+
+  </footer>
+  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Загрузим наш React-компонент. -->
+  <script src="js/like_button.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/image_uploading.js"></script>
+</body>
+</html>

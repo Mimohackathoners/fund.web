@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/types.css">
+  <link href="//db.onlinewebfonts.com/c/1c45e28f8e86cc89876f003b953cc3e9?family=SF+Pro+Text" rel="stylesheet" type="text/css"/>
+  <link href="//db.onlinewebfonts.com/c/791b34a71c48acc600f240e9fdb57fb6?family=TT+Commons" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+  <header class="header">
+    <div class="header__block">
+      <h3 class="vk__h3">Тип сбора</h3>
+      <button class="back" onclick="location.href='index.html'"></button>
+      <div class="border-line"></div>
+    </div>
+    
+  </header>
+  <main>
+    <div class="main-block-type">
+
+      <div class="vk__type-block" onclick="location.href='target-col.html'">
+        <div class="type-mini__block">
+          <img src="img/icon-type1.svg" alt="">
+          <div class="type-text__block">
+            <h4 class="type-h4">Целевой сбор</h4>
+            <p class="type-p-grey">Когда есть определённая цель</p>
+          </div>
+        </div>
+        <img class="type-img" src="img/arrow.svg" alt="">
+      </div>
+
+      <div class="vk__type-block margin_top_12" onclick="location.href='regular-col.html'">
+        <div class="type-mini__block">
+          <img src="img/icon-type2.svg" alt="">
+          <div class="type-text__block">
+            <h4 class="type-h4">Регулярный сбор</h4>
+            <p class="type-p-grey">Если помощь нужна ежемесячно</p>
+          </div>
+        </div>
+        <img class="type-img" src="img/arrow.svg" alt="">
+      </div>
+
+    </div>
+  </main>
+  <footer>
+
+  </footer>
+  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Загрузим наш React-компонент. -->
+  <script src="js/like_button.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
